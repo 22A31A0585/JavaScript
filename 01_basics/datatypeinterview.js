@@ -33,3 +33,16 @@ let myobj={
 
  console.log(typeof anotherid);
  
+ // MEMORY TYPES
+// stack(primitive),heap(non primitive)
+
+let userone ={
+    email:"user@goggle.com",
+    upi:"user@ybl"
+}
+let usertwo=userone
+usertwo.email="anjum@goggle.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
